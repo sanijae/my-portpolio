@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Flip, Rotate } from 'react-awesome-reveal';
 
 const experiences = [
   {
@@ -12,7 +13,6 @@ const experiences = [
     ]
   },
   {
-<<<<<<< HEAD
     company: "QUANTUM ANALYTICS",
     role: "Data Analyst",
     duration: "Jan 2023 – Present",
@@ -23,8 +23,6 @@ const experiences = [
     ]
   },
   {
-=======
->>>>>>> origin/main
     company: "LYFT",
     role: "Backend Engineer Virtual Experience",
     duration: "Oct 2023 – Jan 2024",
@@ -45,19 +43,6 @@ const experiences = [
     ]
   },
   {
-<<<<<<< HEAD
-=======
-    company: "QUANTUM ANALYTICS",
-    role: "Data Analyst",
-    duration: "Jan 2023 – Present",
-    tasks: [
-      "Extract, clean, and analyze large datasets to identify trends, patterns, and outliers.",
-      "Develop and automate reports and dashboards using Tableau for visualization of key performance metrics.",
-      "Collaborate with cross-functional teams to define data requirements and develop data-driven solutions to business challenges."
-    ]
-  },
-  {
->>>>>>> origin/main
     company: "BRITISH AIRWAYS",
     role: "Data Scientist Intern",
     duration: "Dec 2023 – May 2024",
@@ -88,15 +73,19 @@ const Experience = () => {
       <div className='w-full lg:w-2/3'>
         <h2 className="text-3xl font-bold mb-6 text-center">Professional Experience</h2>
         {experiences.map((exp, index) => (
-          <div key={index} className="mb-6 p-2 border-b-2 border-gray-400">
-            <h3 className="text-2xl font-semibold">{exp.role}</h3>
-            <p className="text-lg italic">{exp.company} - {exp.duration}</p>
-            <ul className="list-disc list-inside">
-              {exp.tasks.map((task, i) => (
-                <li key={i} className="ml-4">{task}</li>
-              ))}
-            </ul>
-          </div>
+          <Rotate left>
+            <div key={index} className="mb-6 p-2 border-b-2 border-gray-400">
+              <h3 className="text-2xl font-semibold">{exp.role}</h3>
+              <p className="text-lg italic">{exp.company} - {exp.duration}</p>
+              <ul className="list-disc list-inside">
+                {exp.tasks.map((task, i) => (
+                  <Flip>
+                    <li key={i} className="ml-4">{task}</li>
+                  </Flip>
+                ))}
+              </ul>
+            </div>
+          </Rotate>
         ))}
       </div>
     </section>

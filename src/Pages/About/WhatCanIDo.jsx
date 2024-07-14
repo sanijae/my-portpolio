@@ -1,4 +1,5 @@
 import React from 'react';
+import { Flip, Rotate } from 'react-awesome-reveal';
 
 const skills = [
   {
@@ -80,14 +81,18 @@ const WhatICanDo = () => {
     <section className="p-8 pt-0 pb-0 bg-transparent text-gray-100">
       <h2 className="text-3xl font-bold mb-6 text-center">What I Can Do</h2>
       {skills.map((skill, index) => (
-        <div key={index} className="mb-6 border-b-2 border-gray-400 pb-3">
-          <h3 className="text-2xl font-semibold mb-2">{skill.title}</h3>
-          <ul className="list-disc list-inside">
-            {skill.description.map((desc, i) => (
-              <li key={i} className="ml-4">{desc}</li>
-            ))}
-          </ul>
-        </div>
+        <Rotate top>
+          <div key={index} className="mb-6 border-b-2 border-gray-400 pb-3">
+            <h3 className="text-2xl font-semibold mb-2">{skill.title}</h3>
+            <ul className="list-disc list-inside">
+              {skill.description.map((desc, i) => (
+                <Flip>
+                  <li key={i} className="ml-4">{desc}</li>
+                </Flip>
+              ))}
+            </ul>
+          </div>
+        </Rotate>
       ))}
     </section>
   );

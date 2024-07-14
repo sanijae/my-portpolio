@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Flip, Slide } from 'react-awesome-reveal';
 
 const skills = {
   hardSkills: [
@@ -33,19 +34,25 @@ const Skills = () => {
         <h2 className="text-3xl font-bold mb-6 text-center">Skills</h2>
         <div className="mb-6 border-b-2 border-gray-400 p-4">
           <h3 className="text-2xl font-semibold mb-2">Hard Skills</h3>
-          <ul className="list-disc list-inside">
-            {skills.hardSkills.map((skill, index) => (
-              <li key={index} className="ml-4">{skill}</li>
-            ))}
-          </ul>
+          <Slide>
+            <ul className="list-disc list-inside">
+              {skills.hardSkills.map((skill, index) => (
+                <Flip right>
+                  <li key={index} className="ml-4">{skill}</li>
+                </Flip>
+              ))}
+            </ul>
+          </Slide>
         </div>
         <div className="mb-6 border-b-2 border-gray-400 p-4">
           <h3 className="text-2xl font-semibold mb-2">Soft Skills</h3>
-          <ul className="list-disc list-inside">
-            {skills.softSkills.map((skill, index) => (
-              <li key={index} className="ml-4">{skill}</li>
-            ))}
-          </ul>
+          <Flip>
+            <ul className="list-disc list-inside">
+              {skills.softSkills.map((skill, index) => (
+                <li key={index} className="ml-4">{skill}</li>
+              ))}
+            </ul>
+          </Flip>
         </div>
       </div>
     </section>

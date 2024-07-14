@@ -1,4 +1,5 @@
 import React from 'react';
+import { Bounce } from 'react-awesome-reveal';
 
 const certifications = [
   {
@@ -49,9 +50,11 @@ const Certification = () => {
       <h2 className="text-3xl font-bold mb-6 text-center">Certifications</h2>
       <div className="list-disc list-inside">
         {certifications.map((cert, index) => (
-          <p key={index} className="mb-2">
-            <span className="font-semibold">{cert.institution}</span> - {cert.certification}
-          </p>
+          <Bounce left>
+            <p key={index} className="mb-2">
+              <span className="font-semibold">{cert.institution}</span> - {cert.certification}
+            </p>
+          </Bounce>
         ))}
       </div>
     </section>
