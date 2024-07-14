@@ -12,6 +12,7 @@ const experiences = [
     ]
   },
   {
+<<<<<<< HEAD
     company: "QUANTUM ANALYTICS",
     role: "Data Analyst",
     duration: "Jan 2023 – Present",
@@ -22,6 +23,8 @@ const experiences = [
     ]
   },
   {
+=======
+>>>>>>> origin/main
     company: "LYFT",
     role: "Backend Engineer Virtual Experience",
     duration: "Oct 2023 – Jan 2024",
@@ -42,6 +45,19 @@ const experiences = [
     ]
   },
   {
+<<<<<<< HEAD
+=======
+    company: "QUANTUM ANALYTICS",
+    role: "Data Analyst",
+    duration: "Jan 2023 – Present",
+    tasks: [
+      "Extract, clean, and analyze large datasets to identify trends, patterns, and outliers.",
+      "Develop and automate reports and dashboards using Tableau for visualization of key performance metrics.",
+      "Collaborate with cross-functional teams to define data requirements and develop data-driven solutions to business challenges."
+    ]
+  },
+  {
+>>>>>>> origin/main
     company: "BRITISH AIRWAYS",
     role: "Data Scientist Intern",
     duration: "Dec 2023 – May 2024",

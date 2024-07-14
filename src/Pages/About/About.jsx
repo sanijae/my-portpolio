@@ -3,7 +3,11 @@ import Hero from './Hero';
 import WhatICanDo from './WhatCanIDo';
 
 const About = () => {
+<<<<<<< HEAD
   const link = 'https://drive.google.com/file/d/1f2NIudMhK01YaMMTWZDG-EK3g9HD1YJ0/view?usp=drive_link'
+=======
+  const link = 'https://drive.google.com/file/d/191u4DdKz-Eyg4vWiH34s63sjSvebAguQ/view?usp=drive_link'
+>>>>>>> origin/main
   useEffect(()=>{
     document.title = 'Muhammad Sani - About'
   })

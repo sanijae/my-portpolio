@@ -19,6 +19,7 @@ const Projects = () => {
                 <li key={i} className="ml-4">{desc}</li>
               ))}
             </ul>
+<<<<<<< HEAD
             <div className='flex justify-between items-center p-2'>
               {project.link && 
                 <a href={project.link} target="_blank" rel="noopener noreferrer" className='m-2 p-2 inline-block bg-white hover:bg-gray-700 hover:text-white text-blue-900 text-sm rounded'>Github</a>
@@ -27,6 +28,8 @@ const Projects = () => {
                 <a href={project.links} target="_blank" rel="noopener noreferrer" className='m-2 p-2 inline-block bg-white hover:bg-gray-700 hover:text-white text-blue-900 text-sm rounded'>visit</a>
               }
             </div>
+=======
+>>>>>>> origin/main
           </div>
         ))}
         <div className='w-full p-4 m-2 border-b-2 border-gray-400 mb-10'>
