@@ -61,6 +61,36 @@ const experiences = [
       "Generated and delivered quality reports to customers by conducting quality assurance checks and recorded a 65% increase in customer satisfaction.",
       "Developed reporting systems to provide accessible information for accurate decision making."
     ]
+  },
+  {
+    company: "NYSC, Nigeria",
+    role: "Data Specialist",
+    duration: "Jan 2021 – Feb 2022",
+    tasks: [
+      "Managed data collection, cleansing, and validation processes to ensure data accuracy and integrity.",
+      "Analyzed data to identify key metrics and performance indicators.",
+      "Provided training and support to team members on data management best practices."
+    ]
+  },
+  {
+    company: "ICICT, Abu, Zaria",
+    role: "System Analyst",
+    duration: "August 2019 - Dec 2020",
+    tasks: [
+      "Analyzed system requirements and designed IT solutions to meet business needs.",
+      "Conducted system testing and quality assurance to ensure functionality and performance.",
+      "Developed technical documentation and user guides for system implementations."
+    ]
+  },
+  {
+    company: "Nilest, Zaria",
+    role: "Data Processor Specialist",
+    duration: "Apr 2017 - Jun 2019",
+    tasks: [
+      "Processed and analyzed large volumes of data for accuracy and completeness.",
+      "Generated reports and summaries to support business operations and decision-making",
+      "Collaborated with team members to optimize data processing techniques and improve efficiency.",
+    ]
   }
 ];
 
