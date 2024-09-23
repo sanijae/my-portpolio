@@ -16,6 +16,7 @@ const skills = {
     "Strong SQL skills for data extraction, transformation, and loading (ETL)",
     "Familiarity with machine learning algorithms and techniques for predictive modeling",
     "Expertise in data cleaning, preprocessing, and feature engineering",
+    "Data Analytics: Python, R, Hadoop, MapReduce, Spark, PowerBI, Tableau",
     "Other Tools: Docker, Kubernetes, Jira, Trello, phpMyAdmin",
   ],
   softSkills: [
