@@ -1,5 +1,58 @@
 const projects = [
-    {
+      {
+        name: "True Weather - Real-time Weather App",
+        technologies: ["Angular", "Tailwind CSS", "TypeScript", "HTML", "CSS", "OpenWeatherMap API"],
+        links:"true-weather.vercel.app",
+        link:"https://github.com/sanijae/True_weather",
+        description: [
+          "Developed a dynamic weather application using Angular and Tailwind CSS, providing real-time weather data based on user location or search.",
+          "Integrated OpenWeatherMap API to fetch and display accurate weather details such as temperature, humidity, and wind speed.",
+          "Implemented a responsive and intuitive user interface, ensuring seamless experience across devices with modern UI elements."
+        ]
+      }, 
+      {
+        name: "Swift Blog: A Responsive Blogging Platform",
+        technologies: ["Laravel", "Tailwind CSS", "PHP", "HTML", "CSS", "MySQL"],
+        link:"https://github.com/sanijae/swift_blog",
+        description: [
+          "Built a full-featured blogging platform using Laravel, with functionalities for user authentication, post creation, editing, and commenting.",
+          "Leveraged MySQL for database management to store user data, blog posts, and comments efficiently.",
+          "Designed a clean, responsive UI using HTML and Tailwind CSS, ensuring an optimized experience across different devices and screen sizes.."
+        ]
+      }, 
+      {
+        name: "Sans Store: E-Commerce Platform",
+        technologies: ["VueJS", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
+        link:"https://github.com/sanijae/sans-store",
+        description: [
+          "Developed a scalable e-commerce platform with a modern user interface using Vue.js and Tailwind CSS for smooth navigation and responsiveness.",
+          "Implemented a backend system using Node.js and Express, enabling seamless product management, user authentication, and payment processing.",
+          "Utilized MongoDB for efficient data storage, handling product listings, user data, and transaction records in a secure and scalable manner."
+        ]
+      }, 
+      {
+        name: "Explainable AI Framework for Brain Tumor Detection",
+        technologies: ["Python", "TensorFlow", "Keras", "CNN", "Grad-CAM", "XAI"],
+        // links:"https://career-connect-8w0x.onrender.com",
+        link:"https://www.kaggle.com/code/msanijae/brain-tumor-classifications",
+        description: [
+          "Designed a deep learning framework for brain tumor detection with a focus on explainability to improve clinical integration and trust in AI predictions.",
+          "Utilized Grad-CAM to visualize model decisions, ensuring greater transparency and interpretability in identifying tumor regions.",
+          "Enhanced model performance using EfficientNetB0 with frozen layers, balancing accuracy with computational efficiency for real-time clinical applications."
+        ]
+      },
+      {
+        name: "Clinical Image Analysis Framework for Real-time Medical Imaging",
+        technologies: ["Python", "TensorFlow", "Keras", "CNN"],
+        // links:"https://career-connect-8w0x.onrender.com",
+        link:"https://www.kaggle.com/code/msanijae/breast-hispathology-vgg16",
+        description: [
+          "Developed a CNN-based system using depthwise separable convolutions to optimize performance and speed for real-time medical image analysis.",
+          "Achieved state-of-the-art accuracy and efficiency in detecting and classifying medical images, enhancing diagnostic capabilities.",
+          "Integrated model explainability techniques to ensure transparency in medical image predictions for clinical usage."
+        ]
+      },
+      {
         name: "Job Portal – Career Connect",
         technologies: ["React", "Redux", "Tailwind CSS", "Firebase"],
         links:"https://career-connect-8w0x.onrender.com",

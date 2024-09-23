@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <section className="p-8 text-gray-100 bg-gray-900 flex justify-center">
       <div className='w-full lg:w-2/3'>
-        <h2 className="text-3xl font-bold mb-6 text-center">Projects</h2>
+        {/* <h2 className="text-3xl font-bold mb-6 text-center">Projects</h2> */}
         {projects.map((project, index) => (
           <Rotate left>
             <div key={index} className="mb-6 border-b-2 border-gray-400 rounded-lg p-2">

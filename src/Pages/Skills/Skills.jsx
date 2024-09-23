@@ -4,17 +4,19 @@ import { Flip, Slide } from 'react-awesome-reveal';
 const skills = {
   hardSkills: [
     "Knowledge of AJAX, JSON, and RESTful APIs",
-    "Languages: Python, JavaScript, TypeScript, Java, C#, HTML, CSS",
-    "Frameworks: ReactJS, NodeJS, Flutter, React-native, Django",
+    "Languages: Python, JavaScript, TypeScript, Java, PHP, C#, HTML, CSS",
+    "Frameworks: ReactJS, NodeJS, Flutter, React-native, Django, Laravel",
     "Databases: SQL (MySQL, MSSQL, PostgreSQL), NoSQL (MongoDB)",
     "Version Control: Git, Bitbucket and Gitlab",
-    "Deployment: Heroku, AWS, Netlify, Google Cloud, Microsoft Azure",
-    "Others: Redux, Webpack, Jest, GraphQL, Responsive Design",
+    "Cloud & DevOps: Heroku, AWS, Netlify, Google Cloud, Microsoft Azure",
+    "AI & Machine Learning: CNNs, Transformer models, Explainable AI, Deep Learning, NLP, PyTorch",
+    "Web Development: Redux, Webpack, Jest, GraphQL, Responsive Design",
     "Proficient in statistical analysis using Python, R, and SAS",
     "Experienced in data visualization tools such as Excel, Tableau, Power BI, and matplotlib",
     "Strong SQL skills for data extraction, transformation, and loading (ETL)",
     "Familiarity with machine learning algorithms and techniques for predictive modeling",
     "Expertise in data cleaning, preprocessing, and feature engineering",
+    "Other Tools: Docker, Kubernetes, Jira, Trello, phpMyAdmin",
   ],
   softSkills: [
     "Ability to communicate complex technical concepts to non-technical stakeholders.",
